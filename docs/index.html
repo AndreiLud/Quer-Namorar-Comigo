@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listinha</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Coisinhas Pra Fazer</h1>
+    <div class="input-container">
+      <input type="text" id="new-task" placeholder="Adicionar nova tarefa">
+      <button id="add-btn">Adicionar</button>
+    </div>
+    <ul id="todo-list">
+      <!-- Tarefas serão adicionadas dinamicamente aqui -->
+    </ul>
+    <h1>Coisinhas Feitas</h1>
+    <ul id="completed-list">
+      <!-- Tarefas concluídas serão adicionadas dinamicamente aqui -->
+    </ul>
+    <button id="edit-btn"><i class="fas fa-pencil-alt"></i></button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
